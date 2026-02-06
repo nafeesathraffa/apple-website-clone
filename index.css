@@ -1,0 +1,627 @@
+body{
+  margin-top: 32px;
+  height: 10000px;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  background-color: white;
+  justify-content: space-between; 
+  align-items: center; 
+  padding-left: 260px;
+  padding-right: 300px;
+  position: fixed;
+  top: 0;
+  width: 800px;
+  z-index: 1;
+}
+
+.header-element {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 9px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(71, 71, 71);
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.apple-black-logo-img {
+  height: 15px;
+  width: 13px;
+}
+
+.search-icon-img {
+  height: 10px;
+  width: 13px;
+}
+
+.cart-bag-img {
+  height: 15px;
+  width: 15px;
+}
+
+.vedio {
+  height: 700px;
+  background-color: black;
+  color: white;
+  padding-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.vedio-elements {
+ text-align: center;
+ padding-top: 500px;
+ padding-bottom: 8px;
+}
+
+.logo-and-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 38px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.apple-white-logo-img {
+  height: 40px;
+  width: 33px;
+}
+
+.text {
+  letter-spacing: 1px;
+}
+
+.quit-text {
+  margin-top: 0px;
+  font-size: 20px;
+}
+
+.learn-button {
+  border: 5px solid rgb(255, 255, 255);
+  color: black;
+  border-radius: 30px;
+  height: 35px;
+  width: 100px;
+  margin-right: 15px;
+}
+
+.buy-button {
+  border: none;
+  color: black;
+  border-radius: 30px;
+  height: 35px;
+  width: 60px;
+}
+
+.iphone-container {
+  background-image: url("images/iphone.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+  height:600px;
+  background-color: white;
+  
+}
+
+.iphone-title {
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(34, 31, 31);
+  margin-bottom: 0px;
+  font-weight: 600;
+  margin-top: 10px;
+  padding-top: 50px;
+}
+
+.iphone-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  font-size: 21px;
+}
+
+.iphone-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iphone-learn-button {
+  border: none;
+  background-color: rgb(0, 102, 204);
+  color: white;
+  border-radius: 30px;
+  height: 35px;
+  width: 105px;
+  margin-right: 12px;
+  font-size: 15px;
+}
+
+.iphone-shop-button {
+  background-color: transparent;
+  border: 1px solid rgb(0, 102, 204);
+  color: rgb(0, 102, 204);
+  border-radius: 30px;
+  height: 35px;
+  width: 115px;
+  font-size: 15px;
+}
+
+.ipad-container {
+  margin-top: 10px;
+  height: 600px;
+  background-image: url("images/ipad2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ipad-air {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.ipad {
+  font-size: 45px;
+  font-weight: 550;
+}
+
+.air {
+  color: rgb(0, 102, 204);
+  font-size: 45px;
+  margin-left: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+
+.ipad-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  font-size: 22px;
+}
+
+.ipad-buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ipad-learn-button {
+  border: none;
+  background-color: rgb(0, 102, 204);
+  color: white;
+  border-radius: 30px;
+  height: 35px;
+  width: 105px;
+  margin-right: 12px;
+  font-size: 15px;
+}
+
+.ipad-buy-button {
+  background-color: transparent;
+  border: 1px solid rgb(0, 102, 204);
+  color: rgb(0, 102, 204);
+  border-radius: 30px;
+  height: 35px;
+  width: 60px;
+  font-size: 15px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.workout {
+  background-image: url("images/workout.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.workout-fitness {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 30px;
+  color: rgb(26, 24, 24);
+  margin-bottom: 5px;
+}
+
+.workout-fitness img {
+  height: 35px;
+  width: 25px;
+}
+
+.workout-description p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: rgb(44, 41, 41);
+}
+
+.workout-offer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  margin-top: 7px;
+  color: grey;
+}
+.workout-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.workout-learn-button {
+  border: none;
+  background-color: rgb(0, 102, 204);
+  color: white;
+  border-radius: 30px;
+  height: 35spx;
+  width: 85px;
+  margin-right: 12px;
+  font-size: 12px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+.workout-try-button {
+  background-color: transparent;
+  border: 1px solid rgb(0, 102, 204);
+  color: rgb(0, 102, 204);
+  border-radius: 30px;
+  height: 30px;
+  width: 80px;
+  font-size: 12px;
+}
+
+.macbook {
+  background-image: url("images/macbook.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.macbook-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 30px;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.macbook-description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-top: 0px;
+}
+
+.macbook-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.macbook-learn-button {
+  border: none;
+  background-color: rgb(0, 102, 204);
+  color: white;
+  border-radius: 30px;
+  height: 35spx;
+  width: 85px;
+  margin-right: 12px;
+  font-size: 12px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+.macbook-buy-button {
+  background-color: transparent;
+  border: 1px solid rgb(0, 102, 204);
+  color: rgb(0, 102, 204);
+  border-radius: 30px;
+  height: 30px;
+  width: 50px;
+  font-size: 12px;
+}
+
+.watch {
+  background-image: url("images/watch.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.watch-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-top: 30px;
+  font-size: 25px;
+  margin-bottom: 5px;
+  height: 30px;
+}
+
+.watch-title img {
+  height: 30px;
+  width: 25px;
+}
+
+.watch-description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-top: 0px;
+}
+
+.watch-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.watch-learn-button {
+  border: none;
+  background-color: rgb(0, 102, 204);
+  color: white;
+  border-radius: 30px;
+  height: 35spx;
+  width: 85px;
+  margin-right: 12px;
+  font-size: 12px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+.watch-buy-button {
+  background-color: transparent;
+  border: 1px solid rgb(0, 102, 204);
+  color: rgb(0, 102, 204);
+  border-radius: 30px;
+  height: 30px;
+  width: 50px;
+  font-size: 12px;
+}
+
+.airpods {
+  background-image: url("images/airpods.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.airpods-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 31px;
+  color: rgb(26, 24, 24);
+  margin-bottom: 6px;
+  height: 30px;
+}
+
+.airpods-description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: rgb(44, 42, 42);
+}
+
+.airpods-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.airpods-learn-button {
+  border: none;
+  background-color: rgb(0, 102, 204);
+  color: white;
+  border-radius: 30px;
+  height: 35spx;
+  width: 85px;
+  margin-right: 12px;
+  font-size: 12px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+.airpods-buy-button {
+  background-color: transparent;
+  border: 1px solid rgb(0, 102, 204);
+  color: rgb(0, 102, 204);
+  border-radius: 30px;
+  height: 30px;
+  width: 50px;
+  font-size: 12px;
+}
+
+.iphone-2 {
+  background-image: url("images/iphone2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.iphone-2-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 30px;
+  color: rgb(26, 24, 24);
+  margin-bottom: 5px;
+}
+
+.iphone-2-title img {
+  height: 35px;
+  width: 25px;
+}
+
+.iphone-2-description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: rgb(44, 41, 41);
+}
+
+.iphone-2-estimate-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iphone-2-estimate-button button {
+  border: none;
+  background-color: rgb(0, 102, 204);
+  color: white;
+  border-radius: 30px;
+  height: 35px;
+  width: 120px;
+  font-size: 11px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-top: 10px;
+}
+
+.card {
+  background-image: url("images/card.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.card-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 30px;
+  color: rgb(26, 24, 24);
+  margin-bottom: 5px;
+}
+
+.card-title img {
+  height: 35px;
+  width: 25px;
+}
+
+.card-description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: rgb(44, 41, 41);
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-top: 10px;
+}
+
+.card-learn-button {
+  border: none;
+  background-color: rgb(0, 102, 204);
+  color: white;
+  border-radius: 30px;
+  height: 35spx;
+  width: 85px;
+  margin-right: 12px;
+  font-size: 12px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+.card-apply-button {
+  background-color: transparent;
+  border: 1px solid rgb(0, 102, 204);
+  color: rgb(0, 102, 204);
+  border-radius: 30px;
+  height: 30px;
+  width: 80px;
+  font-size: 12px;
+}
+
+.carousel-para {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+.carousel {
+  width: 100%;
+  overflow: hidden;
+}
+
+.track {
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.track img {
+  width: 80%;
+  flex-shrink: 0;
+  margin: 0 5px;
+}
